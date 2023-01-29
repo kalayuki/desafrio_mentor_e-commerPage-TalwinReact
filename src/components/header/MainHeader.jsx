@@ -20,7 +20,7 @@ const MainHeader=()=>{
 
     const handleOpenMenu = ()=>{
 
-        setNavClass("absolute top-0 left-0  flex h-full w-4/5 flex-col gap-y-{21px} bg-white p-8   font-bold    md:mr-auto  md:flex md:flex-row md:gap-4  md:static md:p-0")
+        setNavClass(" z-10 absolute top-0 left-0  flex h-full w-4/5 flex-col gap-y-{21px} bg-white p-8   font-bold    md:mr-auto  md:flex md:flex-row md:gap-4  md:static md:p-0")
 
         console.log("click")
     }
