@@ -85,7 +85,7 @@ export default ({ARRAY_IMGS =[],
                     onClick={handleOpenModal}
                     src={ARRAY_IMGS[index]}
                      alt=""
-                    className="aspect-[16/12] w-full  md:aspect-[16/18] md:rounded-md" />
+                    className="aspect-[16/12] w-full  md:aspect-[16/18] md:rounded-md  xl:aspect-[16/18]  2xl:max-h-[400px]" />
 
                     {/* ref se utiliza al toamr el div con useRef */}
                     <div ref={btnSlider} className="absolute top-1/2 left-0 -translate-y-1/2 flex justify-between w-full px-4 md:hidden ">
@@ -112,7 +112,7 @@ export default ({ARRAY_IMGS =[],
                         alt="" 
                         className="hidden md:block  md:rounded-md"/>
                             {/* Para poder tener efectos en el momento de seleccionar una de las imagenes pequeñas */}
-                        <span className={` absolute top-0   hover:bg-[rgba(255,255,255,0.5)] h-full w-full ${i === index }`}></span>
+                        <span className={` absolute top-0   hover:bg-[rgba(255,255,255,0.5)] h-full w-full ${i === index }`}></span> 
 
                        </div>
                     ))
